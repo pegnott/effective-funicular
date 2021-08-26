@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "snowpack dev --polyfill-node",
-    "nuke": "rm -rf node_modules"
+    "reinstall": "rm -rf node_modules; npm install"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.4",
