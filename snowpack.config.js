@@ -20,12 +20,7 @@ module.exports = {
       dest: "/index.html",
     },
   ],
-  install: [  ],
-  installOptions: {
-    installTypes: true,
-  },
   devOptions: { },
-  proxy: {  },
   alias: {
     'react': 'preact/compat',
     'react-dom': 'preact/compat'
