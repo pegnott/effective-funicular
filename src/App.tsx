@@ -1,8 +1,6 @@
 import { h } from 'preact';
-import './App.css';
 import { Box, Button, CssBaseline, Typography } from '@material-ui/core';
 import { ToggleButton, ToggleButtonGroup } from '@material-ui/lab';
-
 
 function App() {
   return (
